@@ -18,16 +18,22 @@
       case "multiplicacion": resul= n1*n2;
               System.out.print(resul);
               break;
-        case "division": resul= n1/n2;
+        case "division": 
+              if (n2==0){
+        System.out.print("No se puede dividir por 0");}
+        else{
+          resul= n1/n2;
               System.out.print(resul);
               break;
+        }
+      break;
         } 
     }
 
     public static void main(String[] args){
           //n1,n2//
       float n1=3;
-      float n2=5;
+      float n2=0;
           //op=suma,resta,multiplicacion,division;//
       op="division";
       operacion(op,n1,n2,resul);
