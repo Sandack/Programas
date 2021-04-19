@@ -6,7 +6,6 @@
       private static float resul;
       private static String op;
     
-    
     public static void operacion(String op,float n1,float n2,float resul){  
       switch(op){
         case "suma": resul= n1+n2;
@@ -29,7 +28,6 @@
       break;
         } 
     }
-
     public static void main(String[] args){
           //n1,n2//
       float n1=3;
@@ -37,6 +35,5 @@
           //op=suma,resta,multiplicacion,division;//
       op="division";
       operacion(op,n1,n2,resul);
-  }
-    
-  }
+  }    
+
