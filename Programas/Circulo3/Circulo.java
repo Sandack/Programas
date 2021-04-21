@@ -29,11 +29,7 @@ public class Circulo extends JApplet {
       g.drawString ("*",33,33 );//ESQIZQ
       g.drawString ("*",50,50);//MITAD
   
-    /*g.drawString ("MIZQ", 50, 100);
-    g.drawString ("MITAD", 100, 100);
-    g.drawString ("arriba", 100, 50);
-    g.drawString ("ABAJO", 100, 150);
-    g.drawString ("MDER", 150, 100);*/
+ 
   }
 
   public static void main (String[] args){
