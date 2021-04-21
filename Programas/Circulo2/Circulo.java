@@ -9,7 +9,8 @@ public class Circulo extends JApplet {
   public void paint (Graphics g) {
 
     g.setFont(new Font("TimesRoman", 0, 500)); 
-    g.drawString ("°*", 60, 430);
+    g.drawString ("°", 60, 430);
+
   }
 
   public static void main (String[] args){

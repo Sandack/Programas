@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 public class Circulo extends JApplet {
   int x=50;
   int y=100;
-
+  
   public void paint (Graphics g) {
     while(x<=100 && y<=150){
       x=x+1;
