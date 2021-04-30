@@ -28,14 +28,11 @@ public class Circulo extends JApplet {
       g.drawString ("*",27,40 );//12
       g.drawString ("*",33,33 );//ESQIZQ
       g.drawString ("*",50,50);//MITAD
-  
-    /*g.drawString ("MIZQ", 50, 100);
-    g.drawString ("MITAD", 100, 100);
-    g.drawString ("arriba", 100, 50);
-    g.drawString ("ABAJO", 100, 150);
-    g.drawString ("MDER", 150, 100);*/
+ 
   }
 
+  
+}
   public static void main (String[] args){
     JFrame frame = new JFrame ("Circulo");
     Circulo circuloApplet = new Circulo();
@@ -43,6 +40,7 @@ public class Circulo extends JApplet {
     frame.getContentPane().add(circuloApplet);
     frame.setSize(200,200);
     frame.setVisible(true);
-
+    System.out.print("\033[H\033[2J");
+    System.out.flush();
   }
 }
