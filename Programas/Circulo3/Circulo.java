@@ -28,6 +28,10 @@ public class Circulo extends JApplet {
       g.drawString ("*",27,40 );//12
       g.drawString ("*",33,33 );//ESQIZQ
       g.drawString ("*",50,50);//MITAD
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 26af4e353f8dd4b10b20f69952b9fbc9ddb462a2
  
   }
 
